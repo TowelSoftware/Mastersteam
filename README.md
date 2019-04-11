@@ -12,8 +12,13 @@ You can use Mastersteam either across all of Half-Life 1 or Half-Life 2, or with
 
 To start the webservice on port 8080
 ```
+$ go get github.com/TowelSoftware/Mastersteam
+$ go build
 $ Mastersteam
 ```
+
+You can also use this it in docker.
+https://github.com/TowelSoftware/Mastersteam-docker
 
 You can now search through the browser, Curl or an from an web app
 
@@ -166,7 +171,7 @@ Resources
 https://developer.valvesoftware.com/wiki/Master_Server_Query_Protocol \
 https://developer.valvesoftware.com/wiki/Server_queries
 
-Init code an insparation
+Init code and insparation
 ---------
 https://github.com/alliedmodders/blaster \
 https://github.com/rumblefrog/go-a2s/
